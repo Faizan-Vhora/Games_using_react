@@ -144,6 +144,7 @@ function App() {
 
   return (
     <div>
+      <h1 className="text-center bg-gradient-to-b from-yellow-400 to-orange-500 text-white font-bold pt-5 pb-20 break-all text-4xl md:text-5xl">DOG BREED SPECIFIER</h1>
       {state.currentQuestion && (
         <>
           <p className="text-center">
@@ -176,7 +177,7 @@ function App() {
       )}
       {state.playing == false && Boolean(state.bigCollection.length) && !state.currentQuestion && (
         <p className="text-center fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center">
-          <button onClick={() => dispatch({ type: "startPlaying" })} className="text-white bg-gradient-to-b from-indigo-500 to-indigo-600 px-4 py-3 rounded text-2xl font-bold">
+          <button onClick={() => dispatch({ type: "startPlaying" })} className="text-white bg-gradient-to-b from-yellow-400 to-orange-500 px-4 py-3 rounded text-2xl font-bold">
             Play
           </button>
         </p>
