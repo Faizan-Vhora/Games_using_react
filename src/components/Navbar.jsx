@@ -10,10 +10,10 @@ const Navbar = () => {
           <Link to="/" className="text-white">Dog Breed</Link>
         </li>
         <li>
-          <Link to="/shape" className="text-white">Shapes</Link>
+          <Link to="/shape_game" className="text-white">Shapes</Link>
         </li>
         <li>
-          <Link to="/bin" className="text-white">Bins</Link>
+          <Link to="/bin_game" className="text-white">Bins</Link>
         </li>
       </ul>
     </nav>

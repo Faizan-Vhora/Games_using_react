@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<DogBreedGame />} />
-        <Route path="/bins" element={<BinGame />} />
-        <Route path="/shapes" element={<ShapeGame />} />
+        <Route path="/bin_game" element={<BinGame />} />
+        <Route path="/shape_game" element={<ShapeGame />} />
       </Routes>
     </Router>
   );
