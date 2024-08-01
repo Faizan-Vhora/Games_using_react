@@ -6,9 +6,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "homepage" : "https://alperenkarslix.github.io/",
-"predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "homepage": "https://faizan-vhora.github.io/Game_using_react"
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
 
   },
   "dependencies": {
