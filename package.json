@@ -7,8 +7,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "homepage": "https://faizan-vhora.github.io/Games_using_react/",
-    "predeploy": "npm run build",
-     "deploy": "gh-pages -d build",
+    "name" : "",
+    "predeploy" : "npm run build",
+     "deploy" : "gh-pages -d build"
 
   },
   "dependencies": {
